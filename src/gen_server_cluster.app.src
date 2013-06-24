@@ -1,0 +1,11 @@
+{application, gen_server_cluster, [
+    {description, "A Framework for Clustering Generic Server Instances"},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {gen_server_cluster_app, []}},
+    {env, []}
+]}.
